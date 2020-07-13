@@ -1,0 +1,8 @@
+package com.example.androidmvplogin.Model;
+
+public interface IUser {
+
+    String getEmail();
+    String getPassword();
+    int isValidData();
+}
